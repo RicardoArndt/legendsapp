@@ -1,0 +1,12 @@
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Database\bin\Debug\Solution.Database.dll.config
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Database\bin\Debug\Solution.Database.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Database\bin\Debug\Solution.Database.pdb
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Database\bin\Debug\EntityFramework.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Database\bin\Debug\EntityFramework.xml
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Database\obj\Debug\Solution.Database.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Database\obj\Debug\Solution.Database.csproj.CopyComplete
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Database\obj\Debug\Solution.Database.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Database\obj\Debug\Solution.Database.pdb
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Database\obj\Debug\Solution.Database.csprojAssemblyReference.cache

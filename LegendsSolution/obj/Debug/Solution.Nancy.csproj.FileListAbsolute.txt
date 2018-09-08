@@ -1,0 +1,6 @@
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\LegendsSolution\bin\Debug\LegendsSolution.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\LegendsSolution\bin\Debug\LegendsSolution.pdb
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\LegendsSolution\obj\Debug\Solution.Nancy.csprojAssemblyReference.cache
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\LegendsSolution\obj\Debug\Solution.Nancy.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\LegendsSolution\obj\Debug\LegendsSolution.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\LegendsSolution\obj\Debug\LegendsSolution.pdb

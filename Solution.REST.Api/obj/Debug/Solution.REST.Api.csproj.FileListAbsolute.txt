@@ -1,0 +1,15 @@
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\Solution.REST.Api.exe.config
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\Solution.REST.Api.exe
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\Solution.REST.Api.pdb
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\Solution.Database.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\EntityFramework.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\Solution.Database.pdb
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\Solution.Database.dll.config
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\EntityFramework.xml
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\obj\Debug\Solution.REST.Api.csprojAssemblyReference.cache
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\obj\Debug\Solution.REST.Api.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\obj\Debug\Solution.REST.Api.csproj.CopyComplete
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\obj\Debug\Solution.REST.Api.exe
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\obj\Debug\Solution.REST.Api.pdb
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\EntityFramework.SqlServer.xml
