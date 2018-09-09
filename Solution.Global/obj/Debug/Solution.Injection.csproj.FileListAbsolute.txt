@@ -1,0 +1,12 @@
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\bin\Debug\Solution.Global.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\bin\Debug\Solution.Global.pdb
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\bin\Debug\Solution.Database.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\bin\Debug\EntityFramework.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\bin\Debug\Solution.Database.pdb
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\bin\Debug\Solution.Database.dll.config
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\bin\Debug\EntityFramework.xml
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\obj\Debug\Solution.Injection.csprojAssemblyReference.cache
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\obj\Debug\Solution.Injection.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\obj\Debug\Solution.Injection.csproj.CopyComplete
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\obj\Debug\Solution.Global.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\obj\Debug\Solution.Global.pdb

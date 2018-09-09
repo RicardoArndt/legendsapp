@@ -1,0 +1,6 @@
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\bin\Debug\Solution.Global.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\bin\Debug\Solution.Global.pdb
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\obj\Debug\Solution.Global.csprojAssemblyReference.cache
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\obj\Debug\Solution.Global.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\obj\Debug\Solution.Global.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.Global\obj\Debug\Solution.Global.pdb

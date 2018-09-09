@@ -1,43 +1,27 @@
-﻿using Solution.Database.Entities.Champions;
+﻿using Nancy.Hosting.Self;
+using Solution.Database.Entities.Champions;
 using Solution.Database.Repositories;
+using Solution.Global.DI;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
+using System.Security.Policy;
 
 namespace Solution.REST.Api
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Add();
-        }
+            HostConfiguration hostConfigs = new HostConfiguration();
+            hostConfigs.UrlReservations.CreateAutomatically = true;
 
-        private static void Add()
-        {
-            using (var champ = new ChampionRepository())
-            {
-                new List<Champion>
-                {
-                    new Champion("Jax", true) {},
-                    new Champion("Orianna", true) {},
-                    new Champion("Ekko", true) {}
-                }.ForEach(champ.Add);
+            NancyHost host = new NancyHost(hostConfigs, new Uri("http://localhost:1234"));
+            host.Start();
+            Console.WriteLine("Servidor da Web em execução ...");
 
-                champ.SaveAll();
-
-                System.Console.WriteLine("Campeões adicionadas com sucesso.");
-
-                System.Console.WriteLine("=======  clientes cadastrados ===========");
-                foreach (var c in champ.GetAll())
-                {
-                    System.Console.WriteLine("{0} - {1}", c.Id, c.Name);
-                }
-
-                System.Console.ReadKey();
-            }
+            Console.ReadLine();
+            host.Stop();
         }
     }
 }

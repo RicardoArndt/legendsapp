@@ -55,6 +55,7 @@
     <Compile Include="Repositories\BaseRepository.cs" />
     <Compile Include="Repositories\ChampionRepository.cs" />
     <Compile Include="Repositories\Interfaces\IBaseRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IChampionRepository.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
