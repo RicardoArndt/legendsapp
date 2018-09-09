@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DI\Injection.cs" />
     <Compile Include="DI\ServiceLocator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

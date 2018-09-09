@@ -12,18 +12,6 @@ namespace Solution.REST.Api
 {
     public class Bootstrapper : DefaultNancyBootstrapper
     {
-        Injection _injection;
-
-        protected override void ApplicationStartup(TinyIoCContainer container, IPipelines pipelines)
-        {
-            base.ApplicationStartup(container, pipelines);
-
-            _injection = new Injection();
-            _injection.RegisterRepositories();
-            _injection.RegisterRepositories();
-            _injection.RegisterServices();
-        }
-
         protected override void RequestStartup(TinyIoCContainer container, IPipelines pipelines, NancyContext context)
         {
             //CORS Enable

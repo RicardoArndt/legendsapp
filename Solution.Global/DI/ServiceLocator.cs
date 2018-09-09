@@ -9,22 +9,21 @@ namespace Solution.Global.DI
 {
     public class ServiceLocator
     {
-        protected static Dictionary<Type, object> Instances = null;
+        private static Dictionary<Type, object> Instances = null;
         
-        public ServiceLocator()
+        static ServiceLocator()
         {
             Instances = new Dictionary<Type, object>();
         }
-        
-        public void Register<T, F>()
+
+        private static void Register<T, F>()
         {
             Type obj = typeof(F);
             Assembly ass = Assembly.GetAssembly(obj);
 
             try
             {
-                if(!Instances.ContainsKey(typeof(T)))
-                    Instances.Add(typeof(T), ass.CreateInstance(obj.FullName));
+                Instances.Add(typeof(T), ass.CreateInstance(obj.FullName));
             }
             catch (Exception ex)
             {
@@ -32,10 +31,13 @@ namespace Solution.Global.DI
             }
         }
 
-        public static T GetInstance<T>()
+        public static T GetInstance<T, F>()
         {
             try
             {
+                if (!Instances.ContainsKey(typeof(T)))
+                    Register<T, F>();
+
                 return (T)Instances[typeof(T)];
             } 
             catch
