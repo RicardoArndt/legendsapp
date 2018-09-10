@@ -1,4 +1,7 @@
-﻿using Nancy;
+﻿using LeagueOfLegends.API.Endpoints;
+using LeagueOfLegends.API.Services.Interfaces;
+using Nancy;
+using Newtonsoft.Json;
 using Solution.Database.Entities.Champions;
 using Solution.Database.Repositories;
 using Solution.Database.Repositories.Interfaces;
@@ -17,10 +20,12 @@ namespace Solution.REST.Api.Modules
     public class ChampionModule : NancyModule
     {
         IChampionService _championService;
+        IBaseHttpClientService _baseHttpClientService;
 
         public ChampionModule()
         {
-            _championService = ServiceLocator.GetInstance<IChampionService, ChampionService>();
+            _championService = ServiceLocator.GetInstance<IChampionService>();
+            _baseHttpClientService = ServiceLocator.GetInstance<IBaseHttpClientService>();
 
             Get[ChampionEndpointConfigurator.GET_ALL_CHAMPIONS.PATH] = parameters => {
                 return null;
@@ -41,7 +46,12 @@ namespace Solution.REST.Api.Modules
 
             Get["teste"] = parameters =>
             {
-                return Response.AsJson(_championService.GetAllChampions(), HttpStatusCode.OK);
+                var task = _baseHttpClientService.GetDataAsync(LegendsAPIEndpointConfigurator.GET_ALL_CHAMPIONS.PATH);
+
+                task.Wait();
+                var response = JsonConvert.DeserializeObject(task.Result);
+
+                return Response.AsJson(response, HttpStatusCode.OK);
             };
         }
     }

@@ -14,7 +14,7 @@ namespace Solution.REST.Api.Services
 
         public ChampionService()
         {
-            _championRepository = ServiceLocator.GetInstance<IChampionRepository, ChampionRepository>();
+            _championRepository = ServiceLocator.GetInstance<IChampionRepository>();
         }
         
         public List<Champion> GetAllChampions()

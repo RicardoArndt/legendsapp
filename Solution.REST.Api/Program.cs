@@ -1,11 +1,5 @@
 ﻿using Nancy.Hosting.Self;
-using Solution.Database.Entities.Champions;
-using Solution.Database.Repositories;
-using Solution.Global.DI;
 using System;
-using System.Collections.Generic;
-using System.Reflection;
-using System.Security.Policy;
 
 namespace Solution.REST.Api
 {
@@ -24,4 +18,30 @@ namespace Solution.REST.Api
             host.Stop();
         }
     }
+
+    //public class Rectangle
+    //{
+        
+    //}
+
+    //public abstract class Shape
+    //{
+    //    public abstract void Draw();
+    //}
+
+    //public sealed class Square : Shape
+    //{
+    //    public override void Draw()
+    //    {
+    //        //implementação
+    //    }
+    //}
+
+    //public sealed class Circle : Shape
+    //{
+    //    public override void Draw()
+    //    {
+    //        //implementação
+    //    }
+    //}
 }

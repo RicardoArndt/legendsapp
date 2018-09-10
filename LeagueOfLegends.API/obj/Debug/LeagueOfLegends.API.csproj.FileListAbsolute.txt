@@ -1,0 +1,6 @@
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\LeagueOfLegends.API\bin\Debug\LeagueOfLegends.API.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\LeagueOfLegends.API\bin\Debug\LeagueOfLegends.API.pdb
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\LeagueOfLegends.API\obj\Debug\LeagueOfLegends.API.csprojAssemblyReference.cache
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\LeagueOfLegends.API\obj\Debug\LeagueOfLegends.API.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\LeagueOfLegends.API\obj\Debug\LeagueOfLegends.API.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\LeagueOfLegends.API\obj\Debug\LeagueOfLegends.API.pdb

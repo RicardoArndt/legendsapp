@@ -19,3 +19,7 @@ C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\
 C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\Nancy.Hosting.Self.xml
 C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\Solution.Global.dll
 C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\Solution.Global.pdb
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\LeagueOfLegends.API.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\LeagueOfLegends.API.pdb
+C:\Users\Ricardo Arndt\source\repos\LegendsSolution\Solution.REST.Api\bin\Debug\Newtonsoft.Json.xml

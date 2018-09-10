@@ -16,14 +16,18 @@ namespace Solution.Global.DI
             Instances = new Dictionary<Type, object>();
         }
 
-        private static void Register<T, F>()
+        private static void Register<T>()
         {
-            Type obj = typeof(F);
-            Assembly ass = Assembly.GetAssembly(obj);
+            Type type = typeof(T);
+            var types = AppDomain.CurrentDomain.GetAssemblies()
+                .SelectMany(s => s.GetTypes())
+                .Where(p => type.IsAssignableFrom(p));
+
+            Assembly ass = Assembly.GetAssembly(type);
 
             try
             {
-                Instances.Add(typeof(T), ass.CreateInstance(obj.FullName));
+                Instances.Add(typeof(T), ass.CreateInstance(types.FirstOrDefault().FullName));
             }
             catch (Exception ex)
             {
@@ -31,12 +35,12 @@ namespace Solution.Global.DI
             }
         }
 
-        public static T GetInstance<T, F>()
+        public static T GetInstance<T>()
         {
             try
             {
                 if (!Instances.ContainsKey(typeof(T)))
-                    Register<T, F>();
+                    Register<T>();
 
                 return (T)Instances[typeof(T)];
             } 
